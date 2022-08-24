@@ -1,0 +1,98 @@
+.aboutContainer {
+  margin: 8%;
+  height: 100%;
+}
+
+.aboutTitle h1 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ffa600;
+}
+
+.aboutContent {
+  width: 60%;
+  line-height: 30px;
+}
+
+.abountContentContainer {
+  display: flex;
+  gap: 10%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  font-size: 50px;
+  padding-bottom: 3%;
+  color: #ff9500;
+}
+
+.about-me {
+  width: 30.6vw;
+  height: 88.9vh;
+}
+
+.footerLogo2 {
+  position: relative;
+}
+
+.logo2 {
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  z-index: 20;
+}
+
+.logo3 {
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.logo3:hover {
+  animation: none;
+  /* background: #fff; */
+  /* color: #551B54; */
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media all and (max-width: 560px) {
+  .aboutContainer {
+    margin-top: 40%;
+  }
+
+  .aboutContent {
+    line-height: 24px;
+    width: 100%;
+  }
+  .about-me {
+    display: none;
+  }
+  .skillsContainer h2 {
+    font-size: 20px;
+  }
+  .skills {
+    justify-content: center;
+    align-items: center;
+  }
+  .footerLogo2 {
+    display: none;
+  }
+}

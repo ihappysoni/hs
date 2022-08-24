@@ -1,0 +1,189 @@
+.projectsContainer {
+  margin: 8%;
+}
+.projectsTitle h1 {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff9500;
+}
+
+.projectImg {
+  border: #ff9500 5px solid;
+  width: 46.8vw;
+  height: 50.4vh;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.covidTracker,
+.blog {
+  display: flex;
+  flex-direction: row;
+}
+.movieFinder {
+  flex-direction: row;
+}
+
+.projectDetails {
+  text-align: right;
+  /* width: 100%; */
+  width: 43%;
+}
+
+.usedTechno {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.projectInfo {
+  background-color: #112240;
+  box-shadow: #020c1b 0px 20px 30px -15px;
+  font-size: 18px;
+  line-height: 23.4px;
+  padding: 4%;
+}
+
+.featured {
+  color: #ff9500;
+  margin-bottom: 0;
+}
+
+.projectTitle {
+  margin-top: 0;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: #ff9500;
+  flex-wrap: wrap;
+}
+
+.projectDetails2 {
+  text-align: left;
+}
+
+.usedTechno2 {
+  justify-content: flex-start;
+}
+
+.projectLinks2 {
+  justify-content: flex-start;
+}
+.otherProjectsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* .otherProjects {
+  width: fit-content;
+} */
+
+.otherProjects h1,
+.otherProjects h2 {
+  text-align: center;
+}
+
+.otherProjectsImg {
+  border: #ff9500 3px solid;
+  width: 100%;
+  border-radius: 5px;
+}
+.otherProject {
+  background-color: #112240;
+  box-shadow: #020c1b 0px 20px 30px -15px;
+  padding: 2%;
+  border-radius: 5px;
+  width: 28%;
+}
+
+.otherTechno {
+  justify-content: flex-start;
+}
+
+.otherProjectInfo {
+  margin-bottom: 0;
+}
+
+.otherProjectsPageLink {
+  color: #ff9500;
+}
+
+.otherProjectsPageLink:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 560px) {
+  .projectImg {
+    /* z-index: -1; */
+    border: 5px solid #ff9500;
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+  }
+  .project {
+    width: 93%;
+    background-color: #112240;
+    box-shadow: #020c1b 0px 20px 30px -15px;
+    border-radius: 5px;
+    padding: 4%;
+  }
+  .projectDetails,
+  .projectDetails2 {
+    text-align: center;
+    width: 100%;
+  }
+  .covidTracker,
+  .blog {
+    flex-direction: column;
+  }
+  .movieFinder {
+    flex-direction: column-reverse;
+  }
+  .projectInfo {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  /* .usedTechno {
+    gap: 1rem;
+  } */
+  .otherProject {
+    width: 100%;
+    text-align: center;
+  }
+  .otherProjectsImg {
+    width: 100%;
+  }
+  .otherProjects h2 {
+    font-size: 20px;
+  }
+  .usedTechno,
+  .usedTechno2 {
+    justify-content: center;
+    gap: 10px;
+  }
+  .projectLinks,
+  .projectLinks2 {
+    justify-content: center;
+  }
+}

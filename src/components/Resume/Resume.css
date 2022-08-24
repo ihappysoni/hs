@@ -1,0 +1,65 @@
+.resumeContainer {
+  margin: 8%;
+}
+.resumeTitle {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff9500;
+}
+
+.resumeBtn {
+  background: none;
+  border: 2px solid #ff9500;
+  color: #ff9500;
+  padding: 1%;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 18px;
+  transition: all 0s ease 0s;
+}
+
+.resumeBtn:hover {
+  background-color: #ff9500;
+  color: #0a192f;
+}
+.education section h3 {
+  margin-bottom: 0;
+}
+
+.certificatesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.certificatesContainer div {
+  background-color: #112240;
+  box-shadow: #020c1b 0px 20px 30px -15px;
+  padding: 1%;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.certificatesContainer div a {
+  color: #ff9500;
+}
+
+.certificatesContainer div a:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 560px) {
+  .certificatesContainer div {
+    width: 100%;
+    padding: 5%;
+  }
+  .certificatesContainer div h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .education br {
+    display: none;
+  }
+  .education {
+    margin-bottom: 5vh;
+  }
+}
