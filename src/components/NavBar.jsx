@@ -23,7 +23,7 @@ export default function NavBar() {
     <div className="navContainer">
       <img src={Logo} alt="Logo" className="logo" />
 
-      {showSideBar && <TemporaryDrawer />}
+      {showSideBar && <TemporaryDrawer/>}
       <nav>
         <ul>
           <li>
