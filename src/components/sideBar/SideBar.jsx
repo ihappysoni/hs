@@ -6,13 +6,7 @@ import Button from "@mui/material/Button"
 import List from "@mui/material/List"
 import Divider from "@mui/material/Divider"
 import ListItem from "@mui/material/ListItem"
-// import ListItemIcon from "@mui/material/ListItemIcon"
-// import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos"
 import ListItemText from "@mui/material/ListItemText"
-
-// import { createTheme, ThemeProvider } from "@material-ui/core/styles"
-// import { Typography } from "@material-ui/core"
-
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
     top: false,
@@ -20,12 +14,6 @@ export default function TemporaryDrawer() {
     bottom: false,
     right: false,
   })
-
-  // const theme = createTheme({
-  //   typography: {
-  //     fontFamily: ["Space Mono", "Roboto", "Arial", "sans-serif"].join(","),
-  //   },
-  // })
 
   const toggleDrawer = (anchor, open) => (event) => {
     if (
