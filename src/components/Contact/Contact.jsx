@@ -59,7 +59,7 @@ export default function Contact() {
 
       <div className="footer">
         <p>Designed & Built by Happy Soni with <i class="fa-solid fa-heart" ></i></p>
-        <img src={Logo} alt="Logo" className="logo" />
+        <img src={Logo} alt="Logo"  />
       </div>
     </div>
   )
