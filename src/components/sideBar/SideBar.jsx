@@ -31,8 +31,8 @@ export default function TemporaryDrawer() {
       sx={{
         width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
         height: "100vh",
-        backgroundColor: "#112240",
-        color: "#62f9d5",
+        backgroundColor: "#1b1d3a",
+        color: "#ff9500",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

@@ -7,13 +7,13 @@ export default function SideBarContent() {
     <div className="siderContent">
       <a href="#home">Home</a>
 
-      <a href="#about">About</a>
+      <a href="#about" >About</a>
 
-      <a href="#projects">Projects</a>
+      <a href="#projects" >Projects</a>
 
-      <a href="#resume">Resume</a>
+      <a href="#resume" >Resume</a>
 
-      <a href="#contact">Contact</a>
+      <a href="#contact" >Contact</a>
 
       <button className="resumeBtn sideResumeBtn">
         <a href={ResumePDF}>Download My Resume</a>

@@ -33,11 +33,11 @@ nav ul li:hover {
     display: none;
   }
   .logo {
-    width: 25%;
+    width: 12%;
   }
   .navContainer {
     padding: 0;
     position: fixed;
-    background-color: #0a1d38db;
+    background-color: #1b1d3a;
   }
 }
