@@ -136,7 +136,7 @@
   .projectImg {
     /* z-index: -1; */
     border: 5px solid #ff9500;
-    width: 100%;
+    width: 98%;
     height: 50%;
     border-radius: 5px;
   }
@@ -169,12 +169,16 @@
   /* .usedTechno {
     gap: 1rem;
   } */
+  .otherProjectsContainer{
+       display: inline;
+  }
   .otherProject {
     width: 100%;
     text-align: center;
+    display: inline;
   }
   .otherProjectsImg {
-    width: 100%;
+    width: 90%;
   }
   .otherProjects h2 {
     font-size: 20px;
