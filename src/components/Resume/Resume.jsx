@@ -53,10 +53,60 @@ export default function Resume() {
             </a>
           </div>
           <div>
+            <h3>React(Basics)</h3>
+            <p>Completed on: Aug,2022</p>
+            <a
+              href="https://www.hackerrank.com/certificates/89045eec724f"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+          <div>
+            <h3>
+            CSS
+            </h3>
+            <p>Completed on: Aug 2022</p>
+            <a
+              href="https://www.hackerrank.com/certificates/9278edfcf7ac"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+          <div>
+            <h3>
+            Python(Basics)
+            </h3>
+            <p>Completed on: Aug 2022</p>
+            <a
+              href="https://www.hackerrank.com/certificates/d2784c7ae423"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+          <div>
             <h3>Python & Data Visualisation</h3>
             <p>Completed on: Dec,2021</p>
             <a
               href="https://www.cert.shapeai.tech/verify/1BGd7r"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link Here
+            </a>
+          </div>
+          <div>
+            <h3>
+            Problem Solving(Basics)
+            </h3>
+            <p>Completed on: Aug 2022</p>
+            <a
+              href="https://www.hackerrank.com/certificates/7635bb81084b"
               target="_blank"
               rel="noreferrer"
             >
