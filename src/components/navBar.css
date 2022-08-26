@@ -4,6 +4,7 @@
   border: 2px solid #ffa600;
   cursor: pointer;
   border-radius: 50%;
+  z-index: 5;
 }
 
 nav ul {
@@ -26,6 +27,7 @@ nav ul li:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  z-index: 5;
 }
 
 @media all and (max-width: 560px) {
@@ -34,10 +36,12 @@ nav ul li:hover {
   }
   .logo {
     width: 12%;
+    z-index: 50;
   }
   .navContainer {
     padding: 0;
     position: fixed;
-    background-color: #1b1d3a;
+    /* background-color: #1b1d3a; */
+    z-index: 5;
   }
 }

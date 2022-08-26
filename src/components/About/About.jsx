@@ -39,7 +39,7 @@ export default function About() {
           </p>
           <div className="skillsContainer">
             <br />
-            <h2>Languages/Libraries that i have hands-on experience</h2>
+            <h2 id="head">Languages/Libraries that i have hands-on experience</h2>
             <ul className="skills">
               <li>
                 <i className="fa-brands fa-python" title="Python"></i>

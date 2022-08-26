@@ -1,6 +1,6 @@
 import React from "react"
 import "./Resume.css"
-
+import Happy from "../../happy.pdf"
 
 export default function Resume() {
   return (
@@ -8,7 +8,7 @@ export default function Resume() {
       <h1 className="resumeTitle">Resume</h1>
       <div className="resumeDownload">
         <button className="resumeBtn">
-          <a href="https://drive.google.com/file/d/1JyHbSFmMyzRroNkVbmIIpGt7FFf6OuOn/view?usp=sharing">Download My Resume</a>
+          <a href={Happy} download="happy.pdf">Download My Resume</a>
         </button>
       </div>
       <div className="education">

@@ -6,6 +6,7 @@ import List from "@mui/material/List"
 import Divider from "@mui/material/Divider"
 import ListItem from "@mui/material/ListItem"
 import ListItemText from "@mui/material/ListItemText"
+import Happy from "../../happy.pdf"
 export default function TemporaryDrawer() {
   const [state, setState] = React.useState({
     top: false,
@@ -59,7 +60,7 @@ export default function TemporaryDrawer() {
       <List>
         {[
           <button className="resumeBtn sideResumeBtn">
-            <a href="https://drive.google.com/file/d/1JyHbSFmMyzRroNkVbmIIpGt7FFf6OuOn/view?usp=sharing">Download My Resume</a>
+            <a href={Happy} download="happy.pdf">Download My Resume</a>
           </button>,
         ].map((text) => (
           <ListItem button key={Math.random()}>
