@@ -92,7 +92,7 @@ export default function Projects() {
             </div>
           </div>
           <a
-            href="https://ihappysoni-netflixui.netlify.app/"
+            href="https://ihappysoni-nf.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
