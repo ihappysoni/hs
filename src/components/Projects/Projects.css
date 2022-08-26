@@ -9,7 +9,7 @@
 .projectImg {
   border: #ff9500 5px solid;
   width: 46.8vw;
-  height: 50.4vh;
+  height: 25.4vw;
 }
 
 .projects {
@@ -52,7 +52,7 @@
   background-color: #112240;
   box-shadow: #020c1b 0px 20px 30px -15px;
   font-size: 18px;
-  line-height: 23.4px;
+  line-height: 20.4px;
   padding: 4%;
 }
 
@@ -88,7 +88,6 @@
 .otherProjectsContainer {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -111,11 +110,14 @@
   box-shadow: #020c1b 0px 20px 30px -15px;
   padding: 2%;
   border-radius: 5px;
-  width: 28%;
+  width: 24vw;
 }
 
 .otherTechno {
   justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .otherProjectInfo {

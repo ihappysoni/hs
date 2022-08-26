@@ -27,17 +27,20 @@ export default function About() {
       </div>
       <div className="abountContentContainer">
         <div className="aboutContent">
-          <p>
+          <p id="p">
             Hello there, I'm Happy Soni. I am currently working as Junior Software Engineer at CloudEQ 
             & I'm an aspiring full stack MERN developer. I had done my Bachelor's and currently persuing Master's from Chandigarh University
-          </p>
-          <p>
+            <br /><br /><br />
             Fast-forward to today, I am currently learning DevOps , SysOps and Python Programming. As I was
             learning web i was enjoying turning complex problems into simple, beautiful and intuitive designs 
             now i am enjoying learning new technologies like CI/CD Pipeline, Terraform, Github Action, AWS and Azure.
              When I'm not pushing pixels or flying into Clouds, you'll find me reading fiction or sketching one's portraits.
           </p>
-          <div className="skillsContainer">
+          <img src={AboutImg} alt="About me" className="about-me" />
+        </div>
+        
+      </div>
+      <div className="skillsContainer">
             <br />
             <h2 id="head">Languages/Libraries that i have hands-on experience</h2>
             <ul className="skills">
@@ -82,10 +85,7 @@ export default function About() {
               </li>
             </ul>
           </div>
-        </div>
-
-        <img src={AboutImg} alt="About me" className="about-me" />
-      </div>
+      
       <div className="footerLogo2">
         {showTopBtn && (
           <img

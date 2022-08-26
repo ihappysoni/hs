@@ -166,10 +166,16 @@ export default function Projects() {
                 A Simple Todo-List, with clean UI and Moblie responsive
               </p>
               <div className="usedTechno otherTechno">
-                <p>Html</p>
+                <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <li>Git</li>
+                </ul>
+                {/* <p>Html</p>
                 <p>Css</p>
                 <p>Javascript</p>
-                <p>Github</p>
+                <p>Github</p> */}
               </div>
               <div className="projectLinks">
                 <a
@@ -198,10 +204,12 @@ export default function Projects() {
                 A Simple Digital Clock, with clean UI and Moblie responsive
               </p>
               <div className="usedTechno otherTechno">
-                <p>Html</p>
-                <p>Css</p>
-                <p>Javascript</p>
-                <p>Github</p>
+              <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <li>Git</li>
+                </ul>
               </div>
               <div className="projectLinks">
                 <a
@@ -230,9 +238,11 @@ export default function Projects() {
                 A Clone Webpage UI of landing page of Educational Coding Platform PrepBytes 
               </p>
               <div className="usedTechno otherTechno">
-                <p>Html</p>
-                <p>Css</p>
-                <p>Github</p>
+              <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>Git</li>
+                </ul>
               </div>
               <div className="projectLinks">
                 <a
