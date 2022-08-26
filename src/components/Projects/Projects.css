@@ -170,15 +170,21 @@
     gap: 1rem;
   } */
   .otherProjectsContainer{
-       display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       width: 80vw;
   }
+
   .otherProject {
-    width: 88%;
+    width: 80%;
     text-align: center;
     display: inline;
+    text-align: left;
   }
   .otherProjectsImg {
-    width: 90%;
+    width: 70%;
   }
   .otherProjects h2 {
     font-size: 20px;
