@@ -102,7 +102,7 @@
 
 .otherProjectsImg {
   border: #ff9500 3px solid;
-  width: 100%;
+  width: 96%;
   border-radius: 5px;
 }
 .otherProject {
@@ -110,7 +110,7 @@
   box-shadow: #020c1b 0px 20px 30px -15px;
   padding: 2%;
   border-radius: 5px;
-  width: 24vw;
+  width: 23vw;
 }
 
 .otherTechno {
@@ -173,7 +173,7 @@
        display: inline;
   }
   .otherProject {
-    width: 100%;
+    width: 88%;
     text-align: center;
     display: inline;
   }

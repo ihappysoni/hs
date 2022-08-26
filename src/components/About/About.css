@@ -10,7 +10,7 @@
 .aboutContent {
   line-height: 30px;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 #head{
   display: flex;
@@ -43,6 +43,7 @@
   width: 35.6vw;
   height: 15.6vw;;
   float: right;
+
 }
 
 .footerLogo2 {
