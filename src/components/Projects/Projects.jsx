@@ -83,7 +83,7 @@ export default function Projects() {
                 <i className="fa-brands fa-github"></i>
               </a>
               <a
-                href="https://ihappysoni-netflixui.netlify.app/"
+                href="https://ihappysoni-nf.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
