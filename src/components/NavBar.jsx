@@ -27,19 +27,19 @@ export default function NavBar() {
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" id="home">Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" id="about">About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" id="projects">Projects</a>
           </li>
           <li>
-            <a href="#resume">Resume</a>
+            <a href="#resume" id="resume">Resume</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" id="contact">Contact</a>
           </li>
         </ul>
       </nav>
